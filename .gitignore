@@ -1,0 +1,34 @@
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+
+# IDEs
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Node / PHP (念のためルートでも除外)
+**/node_modules/
+**/vendor/
+
+# Environment files (ここが最重要)
+**/.env
+**/.env.local
+**/.env.production
+**/.env.development
+**/.env.*.local
+
+# Logs and databases
+**/storage/*.key
+**/storage/logs/*.log
+**/storage/framework/sessions/*
+**/storage/framework/views/*.php
+**/*.sqlite
+
+# Docker
+.docker/
