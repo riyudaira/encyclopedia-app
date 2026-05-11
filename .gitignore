@@ -1,9 +1,9 @@
-# OS files
+# ==========================================
+# 共通・OS・エディタ設定
+# ==========================================
 .DS_Store
 Thumbs.db
 *.swp
-
-# IDEs
 .vscode/
 .idea/
 *.suo
@@ -11,24 +11,51 @@ Thumbs.db
 *.njsproj
 *.sln
 *.sw?
+.docker/
 
-# Node / PHP (念のためルートでも除外)
+# ==========================================
+# 機密情報 (絶対にコミットしない)
+# ==========================================
+**/.env
+**/.env.*
+**/auth.json
+**/storage/*.key
+
+# ==========================================
+# 依存関係・ビルド成果物
+# ==========================================
+# Node & PHP Dependencies
 **/node_modules/
 **/vendor/
 
-# Environment files (ここが最重要)
-**/.env
-**/.env.local
-**/.env.production
-**/.env.development
-**/.env.*.local
+# Next.js Build
+**/.next/
+**/out/
+**/build/
+**/.vercel
+*.tsbuildinfo
 
-# Logs and databases
-**/storage/*.key
+# Laravel Build & Public assets
+**/public/build/
+**/public/hot/
+**/public/storage
+**/storage/pail
+
+# ==========================================
+# ログ・一時ファイル・キャッシュ
+# ==========================================
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 **/storage/logs/*.log
 **/storage/framework/sessions/*
 **/storage/framework/views/*.php
-**/*.sqlite
 
-# Docker
-.docker/
+# Testing & Cache
+/.phpunit.cache
+.phpunit.result.cache
+_ide_helper.php
+
+# Databases
+**/*.sqlite
