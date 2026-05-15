@@ -1,0 +1,6 @@
+{
+    "These credentials do not match our records.": "メールアドレスまたはパスワードが正しくありません。",
+    "The :attribute field is required.": ":attributeを入力してください。",
+    "email": "メールアドレス",
+    "password": "パスワード"
+}
