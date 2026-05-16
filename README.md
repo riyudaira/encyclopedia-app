@@ -1,5 +1,3 @@
-
-
 # 百科事典アプリ「もんじゅ」
 
 ## 概要
@@ -10,15 +8,13 @@
 
 ①　ログイン->トップ画面->記事詳細画面
 
-
-
-
-
-https://github.com/user-attachments/assets/941d7f25-c3e2-48f4-a515-494f8ba4b59b
+<video src="https://github.com/user-attachments/assets/941d7f25-c3e2-48f4-a515-494f8ba4b59b
+" loop muted autoplay playsinline width="100%"></video>
 
 ②　記事詳細画面->編集画面->編集登録
 
-https://github.com/user-attachments/assets/0290dc74-0c3b-425c-a84e-18282f4004de
+<video src="https://github.com/user-attachments/assets/0290dc74-0c3b-425c-a84e-18282f4004de
+" loop muted autoplay playsinline width="100%"></video>
 
 **特徴**
 
